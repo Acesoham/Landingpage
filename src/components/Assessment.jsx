@@ -26,7 +26,7 @@ export default function Assessment() {
           <div className="form-placeholder-inner">
             <div className="form-icon">📋</div>
             <div className="form-placeholder-title">
-              Your Typeform Assessment Goes Here
+              Get a Personalized Weight / Fat Loss Plan 
             </div>
             <div className="form-placeholder-body">
               Embed your existing GoOrganic Typeform here using the inline embed
@@ -43,7 +43,7 @@ export default function Assessment() {
               rel="noopener noreferrer"
               className="form-cta"
             >
-              Start Assessment →
+              Take Two Minutes to fill out the Form →
             </a>
           </div>
           {/*

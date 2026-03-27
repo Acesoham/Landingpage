@@ -46,6 +46,10 @@ body {
   line-height: 1.65;
 }
 
+em, i, blockquote, cite {
+  font-style: normal !important;
+}
+
 
 /* ─── NAV ─── */
 nav {
@@ -85,7 +89,7 @@ nav {
   background: var(--primary);
   color: white;
   padding: 14px 32px;
-  border-radius: 8px;
+  border-radius: 100px;
   font-family: 'Playfair Display', serif;
   font-size: 17px;
   font-weight: 600;
@@ -156,7 +160,7 @@ nav.nav-scrolled {
 }
 
 .hero h1 em {
-  font-style: italic;
+  font-style: normal;
   color: var(--text-secondary);
 }
 
@@ -184,7 +188,7 @@ nav.nav-scrolled {
   background: var(--primary);
   color: white;
   padding: 20px 56px;
-  border-radius: 10px;
+  border-radius: 100px;
   font-family: 'Playfair Display', serif;
   font-size: 18px;
   font-weight: 600;
@@ -313,7 +317,7 @@ h2.big {
 }
 
 h2.big em {
-  font-style: italic;
+  font-style: normal;
   color: var(--text-secondary);
 }
 
@@ -426,7 +430,7 @@ h2.big em {
   font-family: 'Playfair Display', serif;
   font-size: 38px;
   font-weight: 500;
-  font-style: italic;
+  font-style: normal;
   color: var(--text);
   line-height: 1.5;
   max-width: 900px;
@@ -854,7 +858,7 @@ h2.big em {
   background: var(--text);
   color: white;
   padding: 14px 36px;
-  border-radius: 8px;
+  border-radius: 100px;
   font-family: 'DM Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
@@ -1081,7 +1085,7 @@ h2.big em {
 
 .testimonials h2.big em {
   color: var(--text-secondary);
-  font-style: italic;
+  font-style: normal;
 }
 
 .testi-grid {
@@ -1135,7 +1139,7 @@ h2.big em {
   color: var(--text-secondary);
   line-height: 1.8;
   margin-bottom: 24px;
-  font-style: italic;
+  font-style: normal;
 }
 
 .testi-author {
@@ -1161,7 +1165,7 @@ h2.big em {
   font-size: 18px;
   font-weight: 800;
   padding: 10px 24px;
-  border-radius: 10px;
+  border-radius: 100px;
   letter-spacing: 0.5px;
   box-shadow: 0 4px 15px rgba(62, 184, 58, 0.35);
 }
@@ -1260,7 +1264,7 @@ h2.big em {
   background: var(--primary);
   color: white;
   padding: 18px 48px;
-  border-radius: 10px;
+  border-radius: 100px;
   font-family: 'DM Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -1748,6 +1752,32 @@ footer {
     width: 28px;
     height: 28px;
   }
+
+  /* Responsive Buttons */
+  .nav-btn {
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+
+  .hero-cta {
+    padding: 14px 32px;
+    font-size: 16px;
+  }
+
+  .cw-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+
+  .form-cta {
+    padding: 14px 32px;
+    font-size: 16px;
+  }
+
+  .testi-badge {
+    padding: 6px 16px;
+    font-size: 14px;
+  }
 }
 
 /* ─── SMALL MOBILE — 480px ─── */
@@ -1771,6 +1801,39 @@ footer {
   .sticky-whatsapp-text {
     display: none;
   }
+
+  .section {
+    padding: 48px 20px;
+  }
+
+  .nav {
+    padding: 0 20px;
+  }
+
+  .nav-btn {
+    padding: 6px 12px;
+    font-size: 11px;
+    border-radius: 100px;
+  }
+
+  .hero-cta, .form-cta {
+    padding: 10px 24px;
+    font-size: 14px;
+    display: inline-block;
+    width: auto;
+    min-width: 180px;
+  }
+
+  .cw-btn {
+    padding: 8px 18px;
+    font-size: 13px;
+    align-self: center;
+  }
+
+  .testi-badge {
+    padding: 4px 12px;
+    font-size: 11px;
+  }
 }
 
 /* ─── ULTRA-WIDE SCALING — 1400px+ ─── */
@@ -1780,7 +1843,7 @@ footer {
   .hero-sub-headline { font-size: 1.8vw; }
   .hero-desc { font-size: 1.3vw; max-width: 45vw; }
   .hero-eyebrow { font-size: 1.15vw; padding: 0.75vw 2vw; margin-bottom: 2.2vw; border-radius: 0.6vw; }
-  .hero-cta { font-size: 1.3vw; padding: 1.5vw 4vw; border-radius: 0.8vw; }
+  .hero-cta { font-size: 1.3vw; padding: 1.5vw 4vw; border-radius: 100px; }
   
   h2.big { font-size: 2.8vw; }
   .body-text { font-size: 1.3vw; max-width: 50vw; }
@@ -1792,8 +1855,8 @@ footer {
   .sticky-whatsapp-text { font-size: 1.1vw; padding: 1vw 1.6vw; border-radius: 0.8vw; }
   .sticky-whatsapp-icon { width: 4.2vw; height: 4.2vw; }
   
-  .form-cta { font-size: 1.3vw; padding: 1.3vw 3.5vw; border-radius: 0.8vw; }
-  .cw-btn { font-size: 1.2vw; padding: 1vw 2.5vw; border-radius: 0.6vw; }
+  .form-cta { font-size: 1.3vw; padding: 1.3vw 3.5vw; border-radius: 100px; }
+  .cw-btn { font-size: 1.2vw; padding: 1vw 2.5vw; border-radius: 100px; }
   
   .how-title, .struggle-title, .vq-name { font-size: 1.8vw; }
   .how-desc, .struggle-desc, .testi-text { font-size: 1.1vw; }
@@ -1813,45 +1876,66 @@ footer {
   .footer-col-value { font-size: 1.1vw; }
 }
 
-/* ─── TRIAL SECTION ─── */
+/* ─── TRIAL SECTION (CLEAN) ─── */
 .trial-section {
-  background: var(--earth);
-  padding: 100px 40px;
+  background: var(--white);
+  padding: 120px 40px;
   text-align: center;
-  color: white;
+  color: var(--text);
+  position: relative;
+  overflow: hidden;
+  border-top: 1px solid var(--divider);
 }
 
-.trial-link {
+.trial-container {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+.trial-header {
   font-family: 'Playfair Display', serif;
   font-size: 48px;
   font-weight: 700;
-  font-style: italic;
-  color: white;
-  text-decoration: none;
-  transition: transform .3s ease, opacity .2s;
+  line-height: 1.2;
+  margin-bottom: 40px;
+  color: var(--text);
+}
+
+.trial-btn {
   display: inline-block;
+  background: var(--primary);
+  color: white;
+  padding: 22px 56px;
+  border-radius: 100px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  box-shadow: 0 10px 30px rgba(62, 184, 58, 0.25);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.trial-link:hover {
-  transform: scale(1.05);
-  opacity: 0.95;
+.trial-btn:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(62, 184, 58, 0.35);
+  background: var(--primary-hover);
 }
 
-.trial-link span {
-  border-bottom: 4px solid rgba(255, 255, 255, 0.4);
+.trial-subtext {
+  margin-top: 24px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  color: var(--text-secondary);
+  letter-spacing: 0.5px;
 }
 
-
-/* ─── UTILITIES ─── */
-.btn-big {
-  padding: 24px 64px !important;
-  font-size: 20px !important;
-  border-radius: 12px !important;
-}
-
-@media (max-width: 768px) {
-  .trial-link {
-    font-size: 28px;
-  }
+@media(max-width: 768px) {
+  .trial-section { padding: 80px 24px; }
+  .trial-header { font-size: 32px; margin-bottom: 32px; }
+  .trial-btn { padding: 16px 36px; font-size: 15px; }
 }
 

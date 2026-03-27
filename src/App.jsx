@@ -30,8 +30,8 @@ export default function App() {
       <Experts />
       <Testimonials />
       <Assessment />
-      <WhyBand />
       <TrialSection />
+      <WhyBand />
       <Footer />
       <StickyCTA />
     </>
