@@ -18,7 +18,7 @@ const experts = [
     role: 'Nutritionist',
   },
   {
-    img: coach-denImg,
+    img: coachDenImg,
     name: 'Coach Den',
     role: 'Fitness and Nutrition Expert',
   },
