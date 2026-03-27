@@ -11,6 +11,7 @@ import Experts from './components/Experts';
 import Testimonials from './components/Testimonials';
 import Assessment from './components/Assessment';
 import WhyBand from './components/WhyBand';
+import TrialSection from './components/TrialSection';
 import Footer from './components/Footer';
 import StickyCTA from './components/StickyCTA';
 
@@ -30,8 +31,10 @@ export default function App() {
       <Testimonials />
       <Assessment />
       <WhyBand />
+      <TrialSection />
       <Footer />
       <StickyCTA />
     </>
   );
 }
+

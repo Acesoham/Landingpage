@@ -67,9 +67,10 @@ export default function Hero() {
       <div className="hero-orb hero-orb-2" />
       <div className="hero-orb hero-orb-3" />
 
-      <div className="hero-eyebrow">
+      <div className="hero-eyebrow" style={{ fontWeight: 800 }}>
         Free 1:1 Weight Loss Consultation — UAE
       </div>
+
 
       <h1>
         Still Not Losing Weight?
@@ -91,8 +92,9 @@ export default function Hero() {
       </p>
 
       <a href="#assessment" className="hero-cta">
-        Apply for Your Free Assessment →
+        Take a Two-Minute Assessment →
       </a>
+
 
       <p className="hero-note">
         🔒 Free. Confidential. One of our experts will call you within 24 hours.

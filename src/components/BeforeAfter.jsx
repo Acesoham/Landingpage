@@ -37,9 +37,10 @@ export default function BeforeAfter() {
                 className="ba-result-item"
                 style={{ borderLeftColor: 'var(--earth)' }}
               >
-                <div className="ba-result-kg" style={{ color: 'var(--earth)' }}>
+                <div className="ba-result-kg">
                   −5 KG
                 </div>
+
                 <div className="ba-result-name">Ahmed R. — Abu Dhabi</div>
                 <div className="ba-result-detail">
                   Men's Belly Fat Reset · 20 Days

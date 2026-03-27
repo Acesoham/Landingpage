@@ -17,7 +17,7 @@ export default function Navbar() {
         </a>
       </div>
       <a href="#assessment" className="nav-btn">
-        Apply for Free Consultation
+        Take the Free Assessment →
       </a>
     </nav>
   );

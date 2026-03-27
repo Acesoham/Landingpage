@@ -1,10 +1,10 @@
 import useReveal from '../hooks/useReveal';
-import victoriaImg from '../assets/victoria.jpeg';
+import victoriaImg from '../assets/victoria.jpg';
 import milaImg from '../assets/mila.jpeg';
 import bhavanaImg from '../assets/bhavana.jpeg';
 import gloriaImg from '../assets/gloria.jpeg';
-import danielaImg from '../assets/daniela.jpeg';
-import coachDenImg from '..assets/coachden.jpeg';
+import danielaImg from '../assets/daniela.jpg';
+import coachDenImg from '../assets/coachden.jpeg';
 
 const experts = [
   {
