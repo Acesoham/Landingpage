@@ -4,7 +4,7 @@ import milaImg from '../assets/mila.jpeg';
 import bhavanaImg from '../assets/bhavana.jpeg';
 import gloriaImg from '../assets/gloria.jpeg';
 import danielaImg from '../assets/daniela.jpeg';
-import coachDenImg from '../assets/coach-den.jpeg';
+import coachDenImg from '..assets/coachden.jpeg';
 
 const experts = [
   {
