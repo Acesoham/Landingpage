@@ -4,7 +4,7 @@ import milaImg from '../assets/mila.jpeg';
 import bhavanaImg from '../assets/bhavana.jpeg';
 import gloriaImg from '../assets/gloria.jpeg';
 import danielaImg from '../assets/daniela.jpeg';
-import coachDenImg from '../assets/coachDen.jpeg';
+import coachDenImg from '../assets/coach-den.jpeg';
 
 const experts = [
   {
@@ -18,7 +18,7 @@ const experts = [
     role: 'Nutritionist',
   },
   {
-    img: coachDenImg,
+    img: coach-denImg,
     name: 'Coach Den',
     role: 'Fitness and Nutrition Expert',
   },
