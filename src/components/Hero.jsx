@@ -78,6 +78,7 @@ export default function Hero() {
         <em>
           Your Body Deserves
           <br />a Real Answer.
+          <br /> Lose 5- 20 KG Effortlessly.
         </em>
       </h1>
 

@@ -3,10 +3,10 @@ export default function TrialSection() {
     <section className="trial-section">
       <div className="trial-container">
         <h2 className="trial-header">
-          Get a Personalized Weight / Fat Loss Plan 
+          Want To Try for 6 Days First ? Lose 2 KGs in 6 Days 
         </h2>
         <a 
-          href="https://www.goorganic.me/categories/weight-loss-cleanse" 
+          href="https://www.goorganic.me/products/warming-winter-high-weight-loss-soup-diet" 
           target="_blank" 
           rel="noopener noreferrer"
           className="trial-btn"

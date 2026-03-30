@@ -6,7 +6,9 @@ export default function Assessment() {
   return (
     <section className="assessment reveal" id="assessment" ref={ref}>
       <div className="assessment-inner">
-        <div className="label">Free. No Obligation. Takes 5 Minutes.</div>
+        <div className="label">Free. No Obligation. Takes 2 Minutes.
+           Lose Upto 20 KG.
+        </div>
         <h2 className="big">
           Apply for Your Free
           <br />
@@ -43,7 +45,7 @@ export default function Assessment() {
               rel="noopener noreferrer"
               className="form-cta"
             >
-              Take Two Minutes to fill out the Form →
+             Take the 2 Minute Assesement To Lose 5- 20 KG→
             </a>
           </div>
           {/*

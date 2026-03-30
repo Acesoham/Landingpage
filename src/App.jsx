@@ -5,7 +5,6 @@ import QuoteBand from './components/QuoteBand';
 import HowItWorks from './components/HowItWorks';
 import BeforeAfter from './components/BeforeAfter';
 import Struggles from './components/Struggles';
-import CorporateWellness from './components/CorporateWellness';
 import VictoriaQuote from './components/VictoriaQuote';
 import Experts from './components/Experts';
 import Testimonials from './components/Testimonials';
@@ -21,16 +20,19 @@ export default function App() {
       <Navbar />
       <Hero />
       <IntroSection />
-      <QuoteBand />
-      <HowItWorks />
+      <div className="quote-how-wrapper">
+        <QuoteBand />
+        <HowItWorks />
+      </div>
       <BeforeAfter />
       <Struggles />
-      <CorporateWellness />
       <VictoriaQuote />
       <Experts />
       <Testimonials />
-      <Assessment />
-      <TrialSection />
+      <div className="assessment-trial-wrapper">
+        <Assessment />
+        <TrialSection />
+      </div>
       <WhyBand />
       <Footer />
       <StickyCTA />
