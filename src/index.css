@@ -1886,16 +1886,67 @@ footer {
     padding: 28px 20px;
   }
 
-  .vq-avatar {
-    width: 140px;
-    height: 140px;
+  /* Victoria Quote mobile */
+  .vq-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    padding: 0 20px;
   }
 
-  /* Experts grid mobile */
-  .experts-circle-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 28px 20px;
-    padding: 28px 20px;
+  .vq-text-side {
+    order: 2; /* Text below image */
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vq-expert-side {
+    order: 1; /* Image on top */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .vq-heading {
+    font-size: 28px;
+    margin-bottom: 12px;
+  }
+
+  .vq-heading-underline {
+    margin: 0 auto 24px;
+    width: 60px;
+  }
+
+  .vq-blockquote {
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .vq-avatar {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 20px;
+  }
+
+  .vq-name {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .vq-credentials {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+
+  .vq-quote-mark {
+    font-size: 80px;
+    margin: 0 0 -20px 0;
+    text-align: center;
+    width: 100%;
   }
 
   .experts-circle-avatar {
@@ -1929,6 +1980,41 @@ footer {
   .sticky-whatsapp-icon svg {
     width: 28px;
     height: 28px;
+  }
+
+  /* Assessment mobile full-screen redesign */
+  .form-box {
+    background: none;
+    border: none;
+    box-shadow: none;
+    min-height: auto;
+    border-radius: 0;
+  }
+
+  .form-box:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .form-placeholder-inner {
+    padding: 0;
+    min-height: auto;
+  }
+
+  .form-placeholder-body {
+    max-width: 100%;
+    font-size: 15px;
+  }
+
+  .form-placeholder-title {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .form-url {
+    word-break: break-all;
+    font-size: 12px;
+    padding: 10px 16px;
   }
 
   /* Responsive Buttons */
@@ -1980,6 +2066,11 @@ footer {
   .why-grid {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .assessment {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .experts-circle-grid {
@@ -2034,10 +2125,38 @@ footer {
     font-size: 13px;
   }
 
+  .vq-heading {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+
+  .vq-blockquote {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .vq-avatar {
+    width: 150px;
+    height: 150px;
+  }
+
+  .vq-quote-mark {
+    font-size: 60px;
+    margin-bottom: -15px;
+  }
+
   .testi-badge {
     padding: 6px 14px;
     font-size: 13px;
     border-radius: 8px;
+  }
+
+  .form-placeholder-title {
+    font-size: 18px;
+  }
+  
+  .form-icon {
+    font-size: 36px;
   }
 }
 

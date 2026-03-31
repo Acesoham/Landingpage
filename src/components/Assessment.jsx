@@ -52,7 +52,7 @@ export default function Assessment() {
               rel="noopener noreferrer"
               className="hero-cta"
             >
-             Take the 2 Minute Assesement To Lose 5- 20 KG→
+             Take the 2 Minute Assessment To Lose 5- 20 KG →
             </a>
           </div>
           {/*

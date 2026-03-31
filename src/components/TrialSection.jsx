@@ -10,7 +10,7 @@ export default function TrialSection() {
           target="_blank" 
           rel="noopener noreferrer"
           className="hero-cta"
-          style={{ display: 'inline-block', marginTop: '20px' }}
+          style={{ marginTop: '20px' }}
         >
           Start With 6 Days Trial. No Powders. No Injections. →
         </a>
