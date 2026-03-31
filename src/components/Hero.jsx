@@ -67,12 +67,14 @@ export default function Hero() {
       <div className="hero-orb hero-orb-2" />
       <div className="hero-orb hero-orb-3" />
 
-      <div className="hero-eyebrow" style={{ fontWeight: 800 }}>
-        Free 1:1 Weight Loss Consultation — UAE
-      </div>
+      <a href="https://wa.me/+971556250664" className="hero-eyebrow" style={{ fontWeight: 800, textDecoration: 'none', display: 'inline-block' }}>
+        Free 1:1 Weightloss Assessment.
+      </a>
 
 
       <h1>
+        Tried Everything,
+        <br />
         Still Not Losing Weight?
         <br />
         <em>
@@ -83,7 +85,7 @@ export default function Hero() {
       </h1>
 
       <p className="hero-sub-headline">
-        No injections. No powders. Just real food — built for your body.
+        <strong>No injections. No powders. Just real food</strong> — built for your body.
       </p>
 
       <p className="hero-desc">
@@ -93,7 +95,7 @@ export default function Hero() {
       </p>
 
       <a href="#assessment" className="hero-cta">
-        Take a Two-Minute Assessment →
+        Take 2 Minute Assessment. Power Of REAL Food. →
       </a>
 
 

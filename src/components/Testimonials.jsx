@@ -49,6 +49,12 @@ export default function Testimonials() {
             </div>
           ))}
         </div>
+
+        <div style={{ textAlign: 'center', marginTop: '60px' }}>
+          <a href="#assessment" className="hero-cta" style={{ display: 'inline-block' }}>
+            Get Your Perfect Plan in 2 Minutes. →
+          </a>
+        </div>
       </div>
     </section>
   );

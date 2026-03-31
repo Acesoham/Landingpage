@@ -50,10 +50,10 @@ export default function IntroSection() {
             </ul>
             <a
               href="#assessment"
-              className="nav-btn btn-big"
-              style={{ display: 'inline-block' }}
+              className="hero-cta"
+              style={{ display: 'inline-block', marginTop: '20px' }}
             >
-              Take the Free Assessment →
+              Take the Free Assessment. No Powders / No Pills. →
             </a>
 
           </div>

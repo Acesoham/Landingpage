@@ -83,6 +83,18 @@ export default function BeforeAfter() {
             </div>
           </div>
         </div>
+        
+        <div style={{ textAlign: 'center', marginTop: '60px' }}>
+          <a
+            href="https://wa.me/+971556250664"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-cta"
+            style={{ display: 'inline-block' }}
+          >
+            Talk To Our Experts →
+          </a>
+        </div>
       </div>
     </section>
   );

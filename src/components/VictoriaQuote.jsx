@@ -27,6 +27,12 @@ export default function VictoriaQuote() {
               I am really happy to see a company that is prioritizing health and
               solving problems to the core."
             </blockquote>
+
+            <div style={{ marginTop: '40px' }}>
+              <a href="https://wa.me/+971556250664" className="hero-cta">
+                Apply 1:1 Assessment. Get The Perfect Plan. →
+              </a>
+            </div>
           </div>
 
           <div className="vq-expert-side">

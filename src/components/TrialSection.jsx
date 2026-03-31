@@ -3,15 +3,16 @@ export default function TrialSection() {
     <section className="trial-section">
       <div className="trial-container">
         <h2 className="trial-header">
-          Want To Try for 6 Days First ? Lose 2 KGs in 6 Days 
+          Want To Try for 6 Days First ? <a href="https://www.goorganic.me/categories/ozempic-mounjaro" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: 'inherit' }}>Lose 2 KGs in 6 Days</a>
         </h2>
         <a 
-          href="https://www.goorganic.me/products/warming-winter-high-weight-loss-soup-diet" 
+          href="https://www.goorganic.me/categories/ozempic-mounjaro" 
           target="_blank" 
           rel="noopener noreferrer"
-          className="trial-btn"
+          className="hero-cta"
+          style={{ display: 'inline-block', marginTop: '20px' }}
         >
-          Start with 6 Day Trial →
+          Start With 6 Days Trial. No Powders. No Injections. →
         </a>
         <p className="trial-subtext">No commitment required. Cancel anytime.</p>
       </div>

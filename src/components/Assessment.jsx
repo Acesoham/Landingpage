@@ -6,13 +6,18 @@ export default function Assessment() {
   return (
     <section className="assessment reveal" id="assessment" ref={ref}>
       <div className="assessment-inner">
-        <div className="label">Free. No Obligation. Takes 2 Minutes.
-           Lose Upto 20 KG.
+        <div className="label">
+          Free. No Obligation. Takes 2 Minutes.<br/>
+          <a href="https://wa.me/+971556250664" style={{ fontWeight: 900, textDecoration: 'none', color: 'inherit', display: 'inline-block', marginTop: '8px' }}>
+            Lose Upto 20 KG.
+          </a>
         </div>
         <h2 className="big">
-          Apply for Your Free
-          <br />
-          1:1 Weight Loss Consultation
+          <a href="https://wa.me/+971556250664" style={{ textDecoration: 'none', color: 'inherit' }}>
+            Apply for Your Free
+            <br />
+            1:1 Weight Loss Consultation
+          </a>
         </h2>
         <p className="body-text">
           Tell us about your body, your symptoms and your goals. The more
@@ -28,7 +33,9 @@ export default function Assessment() {
           <div className="form-placeholder-inner">
             <div className="form-icon">📋</div>
             <div className="form-placeholder-title">
-              Get a Personalized Weight / Fat Loss Plan 
+              <a href="https://wa.me/+971556250664" style={{ textDecoration: 'none', color: 'inherit' }}>
+                Get a Personalized Weight / Fat Loss Plan 
+              </a>
             </div>
             <div className="form-placeholder-body">
               Embed your existing GoOrganic Typeform here using the inline embed
@@ -43,7 +50,7 @@ export default function Assessment() {
               href="https://form.typeform.com/to/Zear9f4V"
               target="_blank"
               rel="noopener noreferrer"
-              className="form-cta"
+              className="hero-cta"
             >
              Take the 2 Minute Assesement To Lose 5- 20 KG→
             </a>

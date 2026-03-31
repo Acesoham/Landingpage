@@ -39,7 +39,7 @@ export default function Struggles() {
   return (
     <section className="section struggles reveal" ref={ref}>
       <div className="section-inner">
-        <div className="label">Sound Familiar?</div>
+        
         <h2 className="big">
           If You're Experiencing Any of These,
           <br />
