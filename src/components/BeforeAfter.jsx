@@ -86,7 +86,7 @@ export default function BeforeAfter() {
         
         <div style={{ textAlign: 'center', marginTop: '60px' }}>
           <a
-            href="https://wa.me/+971556250664"
+            href="https://wa.me/+971525264045"
             target="_blank"
             rel="noopener noreferrer"
             className="hero-cta"
