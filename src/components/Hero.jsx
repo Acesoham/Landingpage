@@ -89,9 +89,11 @@ export default function Hero() {
       </p>
 
       <p className="hero-desc">
-        Most weight loss programs fail because they're built for someone else.
-        Our qualified nutrition experts study your body, your symptoms and your
-        lifestyle — then build a plan that actually works.
+        <strong>
+          Most weight loss programs fail because they're built for someone else.
+          Our qualified nutrition experts study your body, your symptoms and your
+          lifestyle — then build a plan that actually works.
+        </strong>
       </p>
 
       <a href="#assessment" className="hero-cta">
