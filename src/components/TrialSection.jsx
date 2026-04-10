@@ -3,7 +3,7 @@ export default function TrialSection() {
     <section className="trial-section">
       <div className="trial-container">
         <h2 className="trial-header">
-          Want To Try for 6 Days First ? <a href="https://www.goorganic.me/products/warming-winter-high-weight-loss-soup-diet" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: 'inherit' }}>Lose 2 KGs in 6 Days</a>
+          Want To Try for 5 Days First ? <a href="https://www.goorganic.me/products/warming-winter-high-weight-loss-soup-diet" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'underline', color: 'inherit' }}>Lose 2 KGs in 5 Days</a>
         </h2>
         <a 
           href="https://www.goorganic.me/products/warming-winter-high-weight-loss-soup-diet" 
@@ -12,7 +12,7 @@ export default function TrialSection() {
           className="hero-cta"
           style={{ marginTop: '20px' }}
         >
-          Start With 6 Days Trial. No Powders. No Injections. →
+          Start With 5 Days Trial. No Powders. No Injections. →
         </a>
         <p className="trial-subtext">No commitment required. Cancel anytime.</p>
       </div>
