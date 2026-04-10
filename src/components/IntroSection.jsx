@@ -49,7 +49,7 @@ export default function IntroSection() {
               ))}
             </ul>
             <a
-              href="#assessment"
+              href="https://form.typeform.com/to/Zear9f4V"
               className="hero-cta"
               style={{ display: 'inline-block', marginTop: '20px' }}
             >

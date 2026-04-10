@@ -96,7 +96,7 @@ export default function Hero() {
         </strong>
       </p>
 
-      <a href="#assessment" className="hero-cta">
+      <a href="https://form.typeform.com/to/Zear9f4V" className="hero-cta">
         Take 2 Minute Assessment. Power Of REAL Food. →
       </a>
 

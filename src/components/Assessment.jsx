@@ -38,14 +38,9 @@ export default function Assessment() {
               </a>
             </div>
             <div className="form-placeholder-body">
-              Embed your existing GoOrganic Typeform here using the inline embed
-              option from your Typeform dashboard. Go to{' '}
-              <strong>Share → Embed → Standard</strong> and paste the code in
-              place of this block.
+             
             </div>
-            <div className="form-url">
-             https://form.typeform.com/to/Zear9f4V
-            </div>
+          
             <a
               href="https://form.typeform.com/to/Zear9f4V"
               target="_blank"

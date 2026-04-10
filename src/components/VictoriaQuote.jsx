@@ -29,7 +29,7 @@ export default function VictoriaQuote() {
             </blockquote>
 
             <div style={{ marginTop: '40px' }}>
-              <a href="https://wa.me/+971556250664" className="hero-cta">
+              <a href="https://form.typeform.com/to/Zear9f4V" className="hero-cta">
                 Apply 1:1 Assessment. Get The Perfect Plan. →
               </a>
             </div>
