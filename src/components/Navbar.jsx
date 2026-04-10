@@ -16,13 +16,9 @@ export default function Navbar() {
           Go<span>Organic</span>
         </a>
       </div>
-      <div className="form-url">
-
-            
       <a href="https://form.typeform.com/to/Zear9f4V" className="nav-btn">
         Take the Free Assessment →
       </a>
-      </div>
     </nav>
   );
 }
