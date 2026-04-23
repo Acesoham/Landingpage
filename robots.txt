@@ -1,0 +1,10 @@
+# GoOrganic — robots.txt
+# https://www.goorganic.me
+
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.git/
+
+# Sitemap
+Sitemap: https://www.goorganic.me/sitemap.xml

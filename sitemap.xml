@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Main Landing Page -->
+  <url>
+    <loc>https://www.goorganic.me/</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.goorganic.me/src/assets/GoOrganicLogo.jpeg</image:loc>
+      <image:title>GoOrganic — Organic Weight Loss &amp; Nutrition Plans in the UAE</image:title>
+      <image:caption>GoOrganic official logo — organic meal delivery and weight loss consultation service in Dubai, Abu Dhabi and the UAE.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.goorganic.me/src/assets/food.jpg</image:loc>
+      <image:title>Fresh Organic Meals by GoOrganic — HACCP Certified Kitchen</image:title>
+      <image:caption>Nutritionist-designed organic meal prepared in GoOrganic's HACCP-certified kitchen for weight loss and gut health reset programs in the UAE.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.goorganic.me/src/assets/victoria.jpg</image:loc>
+      <image:title>Victoria Tipper — MSc Nutrition Expert at GoOrganic</image:title>
+      <image:caption>Victoria Tipper, MSc Nutrition (Aus), BSc Genetics (UK), GAPS Practitioner and lead nutrition consultant endorsing GoOrganic weight loss resets.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Assessment Section (anchor) -->
+  <url>
+    <loc>https://www.goorganic.me/#assessment</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Before & After Results (client transformations) -->
+  <url>
+    <loc>https://www.goorganic.me/#results</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.goorganic.me/src/assets/desktop-size02new-267976746473912_s(1).jpg</image:loc>
+      <image:title>GoOrganic Client Transformation — Women's Weight Loss Before &amp; After</image:title>
+      <image:caption>Real client before and after weight loss transformation — lost 8 KG in 30 days on GoOrganic's Women's Reset program in Dubai.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.goorganic.me/src/assets/desktop-size03new1-268017567497052_s.jpg</image:loc>
+      <image:title>GoOrganic Client Transformation — Men's Belly Fat Loss Before &amp; After</image:title>
+      <image:caption>Real client before and after belly fat loss — lost 5 KG in 20 days on GoOrganic's Men's Belly Fat Reset program in Abu Dhabi.</image:caption>
+    </image:image>
+  </url>
+
+  <!-- 5-Day Trial Product Page (external link referenced on site) -->
+  <url>
+    <loc>https://www.goorganic.me/products/warming-winter-high-weight-loss-soup-diet</loc>
+    <lastmod>2026-04-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
