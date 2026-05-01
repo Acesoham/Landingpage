@@ -7,4 +7,4 @@ Disallow: /node_modules/
 Disallow: /.git/
 
 # Sitemap
-Sitemap: https://www.goorganic.me/sitemap.xml
+Sitemap: https://weightlossgoorganic.vercel.app/sitemap.xml
