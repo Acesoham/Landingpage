@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://weightlossgoorganic.vercel.app/sitemap.xml
