@@ -1,10 +1,4 @@
-# GoOrganic — robots.txt
-# https://www.goorganic.me
-
 User-agent: *
 Allow: /
-Disallow: /node_modules/
-Disallow: /.git/
 
-# Sitemap
 Sitemap: https://weightlossgoorganic.vercel.app/sitemap.xml
